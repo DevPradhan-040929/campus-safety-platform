@@ -56,3 +56,71 @@ This platform enables:
 
 ## 🏗️ Project Structure
 
+campus-safety-platform/
+├── backend/
+│ ├── src/
+│ │ ├── config/
+│ │ ├── controllers/
+│ │ ├── routes/
+│ │ ├── middleware/
+│ │ ├── app.js
+│ │ └── server.js
+│ ├── package.json
+│ └── package-lock.json
+├── frontend/
+│ └── README.md
+├── docs/
+├── .gitignore
+└── README.md
+
+
+---
+
+## 🚀 Getting Started (Backend)
+
+```bash
+cd backend
+npm install
+npm run dev
+
+
+Server will start on:
+
+http://localhost:5000
+
+🔐 Environment Variables
+
+Create a .env file in backend/:
+
+PORT=5000
+DATABASE_URL=postgresql://user:password@localhost:5432/campus_db
+JWT_SECRET=supersecretkey
+
+🔄 Agile Methodology
+
+Iterative development
+
+Feature-based commits
+
+Incremental enhancements
+
+Continuous feedback & improvement
+
+📈 CI/CD & Observability (Planned)
+
+Automated build & test using GitHub Actions
+
+Cloud deployment
+
+Centralized logging & monitoring
+
+👨‍💻 Author
+
+Dev Pradhan
+
+📌 Status
+
+🟡 In active development
+
+
+
