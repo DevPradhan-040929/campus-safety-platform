@@ -39,3 +39,50 @@ To build a secure and reliable real-time campus safety system that improves inci
 This project uses GitHub Flow:
 - `main` branch for stable code
 - `feature/*` branches for new features
+
+
+
+### Prerequisites
+- Git
+- Docker (optional – project also builds via GitHub Actions)
+
+### Steps
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/<your-username>/campus-safety-platform.git
+   cd campus-safety-platform/backend
+Build Docker image
+
+docker build -t campus-backend .
+Run backend service
+
+docker run -p 5000:5000 campus-backend
+Open in browser
+
+http://localhost:5000
+
+📌 That’s it.  
+📌 Even if Docker is not installed locally, CI/CD builds the image in cloud.
+
+---
+
+# 🟢 PART 2: BRANCHING STRATEGY (THIS IS JUST THEORY)
+
+Also add **this section** to `README.md`.
+
+---
+
+## 🌿 Branching Strategy
+
+```md
+This project follows **GitHub Flow**:
+
+- `main` branch always contains stable, production-ready code.
+- New features are developed in separate feature branches.
+- Feature branches are merged into `main` via Pull Requests after review.
+
+### Branch Naming Convention
+- feature/backend-setup
+- feature/dockerization
+- feature/jwt-auth
