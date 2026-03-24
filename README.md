@@ -86,3 +86,14 @@ This project follows **GitHub Flow**:
 - feature/backend-setup
 - feature/dockerization
 - feature/jwt-auth
+
+## Software Design
+
+This project follows a layered architecture separating frontend, backend, and database.
+
+### Design Summary
+The system is modular with low coupling and high cohesion. Separate modules handle authentication, incident management, and notifications, improving maintainability and scalability.
+
+### UI Design
+Figma prototype link:
+https://www.figma.com/make/ELZjJx0hEZmEsHZgDF2k3Q/Campus-Safety---Incident-Reporting-Platforms?fullscreen=1&t=NbRamP1NZQizUycL-1
