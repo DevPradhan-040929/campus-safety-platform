@@ -1,10 +1,19 @@
+# Campus Safety & Incident Reporting Platform
 
-  # Campus Safety & Incident Reporting Platforms
+This project is a web-based system for reporting and managing campus safety incidents.
 
-  This is a code bundle for Campus Safety & Incident Reporting Platforms. The original project is available at https://www.figma.com/design/ELZjJx0hEZmEsHZgDF2k3Q/Campus-Safety---Incident-Reporting-Platforms.
-  ## Running the code
+## Features
+- User authentication (Student/Admin)
+- Incident reporting
+- Incident tracking
+- Admin dashboard
 
-  Run `npm i` to install the dependencies.
+## How to Run
 
-  Run `npm run dev` to start the development server.
-  
+Frontend:
+npm install
+npm run dev
+
+Backend:
+npm install
+npm start
